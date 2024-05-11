@@ -1,0 +1,53 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+    }
+    p, h1, h2, ul, a, a:visited {
+        color: white;
+    }
+    li a, a:visited {
+        color: #0079aa;
+    }
+    ol a:visited {
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FFFFFF;
+    }
+}
+
+header li, ol {
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header {
+    font-size: 1rem;
+    background: #005577; 
+}
+
+header a {
+    color: #fff;
+    line-height: 1.7rem;
+    padding: 0.5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #005577; 
+}
+
+li {
+    padding-left: 3px;
+}
+
